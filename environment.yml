@@ -17,3 +17,9 @@ dependencies:
   # https://github.com/conda-forge/sage-feedstock/blob/main/recipe/meta.yaml
   # for the things that are included in "sage" but that might be missing from
   # "sagelib".
+  # See https://mybinder.readthedocs.io/en/latest/examples/sample_repos.html#using-conda-with-pip-in-the-same-build.
+  - python>=3.8
+  - pip
+  # See https://stackoverflow.com/a/59056234.
+  - pip:
+    - -r requirements.txt
