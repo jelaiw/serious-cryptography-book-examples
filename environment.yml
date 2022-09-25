@@ -4,9 +4,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - jupyterlab
+  - jupyterlab=3.4.7
   # Required by the SageMath kernel in Jupyter
-  - ipywidgets
+  - ipywidgets=7.7.2
   # Install the full distribution of SageMath. The resulting image might take a
   # long time to load on binder. Replace sage with sagelib, to use a minimal
   # distribution of SageMath, without plotting, without symbolic computations, ….
