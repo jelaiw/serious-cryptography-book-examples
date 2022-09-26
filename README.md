@@ -1,8 +1,10 @@
 ## Overview
 A git repo for working examples from Jean-Philippe Aumasson's excellent introductory cryptography book [1].
 
-## Run Examples
-Interact with the Jupyter notebooks courtesy of the excellent Binder project [2].
+## View or Run Examples
+Click on any of the Jupyter notebooks (i.e., the `.ipynb` files) to view them.
+
+Or interact live with a Jupyter notebook (e.g., re-run cells, change parameters), courtesy of the excellent Binder project [2].
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jelaiw/serious-cryptography-examples/HEAD)
 
