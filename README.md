@@ -4,11 +4,13 @@ A git repo for working examples from Jean-Philippe Aumasson's excellent introduc
 ## View or Run Examples
 Click on any of the Jupyter notebooks (i.e., the `.ipynb` files) to view them.
 
-Or interact live with a Jupyter notebook (e.g., re-run cells, change parameters), courtesy of the excellent Binder project [2].
+Or interact live with a Jupyter notebook (e.g., re-run cells, change parameters), courtesy of the excellent Binder project [2]. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jelaiw/serious-cryptography-examples/HEAD)
 
-NOTE: It usually takes about a minute to spin up JupyterLab on Binder, so be patient.
+*It can take a minute to spin up JupyterLab on Binder, so be patient.*
+
+NOTE: The Jupyter notebooks with the SageMath kernel (Listings 10-1 and 10-2) are view-only for now. There is a conda-based SageMath environment for Binder at https://github.com/sagemath/sage-binder-env, but it usually takes a few tries (and a long wait) for me.
 
 ## References
 1. "Serious Crytography: A Practical Introduction to Modern Encryption". Aumasson, Jean-Philippe. No Starch Press, 2018.
