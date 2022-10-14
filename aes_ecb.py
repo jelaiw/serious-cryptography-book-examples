@@ -8,7 +8,7 @@ def blocks(data):
     return " ".join(split)
 
 k = urandom(16)
-print("k = {}".format(hexa(k)))
+print(f"k = {hexa(k)}")
 
 # Create AES-128 cipher for encryption.
 cipher = Cipher(algorithms.AES(k), modes.ECB())
@@ -19,4 +19,4 @@ p = b'\x00'*BLOCKLEN*2
 
 # Encrypt plaintext p to ciphertext c.
 c = aes_encrypt.update(p) + aes_encrypt.finalize()
-print("enc({}) = {}".format(blocks(p), blocks(c)))
+print(f"enc({blocks(p)}) = {blocks(c)}")
