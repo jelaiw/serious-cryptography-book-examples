@@ -14,9 +14,8 @@ print("k = {}".format(hexa(k)))
 cipher = Cipher(algorithms.AES(k), modes.ECB())
 aes_encrypt = cipher.encryptor()
 
-# Set plaintext p (two blocks) to all-zero string.
-p = '\x00'*BLOCKLEN*2
-p = p.encode()
+# Set plaintext p (two blocks) to null bytes.
+p = b'\x00'*BLOCKLEN*2
 
 # Encrypt plaintext p to ciphertext c.
 c = aes_encrypt.update(p) + aes_encrypt.finalize()
