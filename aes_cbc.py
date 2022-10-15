@@ -8,11 +8,11 @@ def blocks(data):
     return " ".join(split)
 
 k = urandom(16)
-print("k = {}".format(hexa(k)))
+print(f"k = {hexa(k)}")
 
 # Pick a random initial value.
 iv = urandom(16)
-print("iv = {}".format(hexa(iv)))
+print(f"iv = {hexa(iv)}")
 
 # Create an instance of AES-128 in CBC mode.
 aes = Cipher(algorithms.AES(k), modes.CBC(iv)).encryptor()
@@ -23,11 +23,11 @@ p = p.encode()
 
 # Encrypt plaintext p to ciphertext c.
 c = aes.update(p) + aes.finalize()
-print("enc({}) = {}".format(blocks(p), blocks(c)))
+print(f"enc({blocks(p)}) = {blocks(c)}")
 
 # Pick a different IV with the same key.
 iv = urandom(16)
-print("iv = {}".format(hexa(iv)))
+print(f"iv = {hexa(iv)}")
 aes = Cipher(algorithms.AES(k), modes.CBC(iv)).encryptor()
 c = aes.update(p) + aes.finalize()
-print("enc({}) = {}".format(blocks(p), blocks(c)))
+print(f"enc({blocks(p)}) = {blocks(c)}")
