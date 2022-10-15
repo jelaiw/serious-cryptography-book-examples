@@ -18,8 +18,7 @@ print(f"iv = {hexa(iv)}")
 aes = Cipher(algorithms.AES(k), modes.CBC(iv)).encryptor()
 
 # Set plaintext p (two blocks) to all-zero string.
-p = '\x00'*BLOCKLEN*2
-p = p.encode()
+p = b'\x00'*BLOCKLEN*2
 
 # Encrypt plaintext p to ciphertext c.
 c = aes.update(p) + aes.finalize()
