@@ -3,9 +3,12 @@ from binascii import hexlify as hexa
 from os import urandom
 
 BLOCKLEN = 16
+# Return data as a string, space delimited into blocks of size BLOCKLEN.
+# Note, data are passed in as encoded bytes.
+# See https://docs.python.org/3/library/binascii.html#binascii.hexlify.
 def blocks(data):
-    split = [hexa(data[i:i+BLOCKLEN]).decode() for i in range(0, len(data), BLOCKLEN)]
-    return " ".join(split)
+    blocks = [hexa(data[i:i+BLOCKLEN]).decode() for i in range(0, len(data), BLOCKLEN)]
+    return " ".join(blocks)
 
 k = urandom(16)
 print(f"k = {hexa(k)}")
