@@ -10,9 +10,8 @@ print(f"k = {hexa(k)}")
 cipher = Cipher(algorithms.AES(k), modes.ECB())
 aes_encrypt = cipher.encryptor()
 
-# Set plaintext block p to all-zero string.
-p = '\x00'*16
-p = p.encode()
+# Set plaintext block p to all-zero bytes.
+p = b'\x00'*16
 
 # Encrypt plaintext p (to ciphertext c).
 c = aes_encrypt.update(p) + aes_encrypt.finalize()
