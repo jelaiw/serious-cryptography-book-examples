@@ -4,7 +4,7 @@ from os import urandom
 
 # Pick a random 16-byte key using Python's crypto PRNG.
 k = urandom(16)
-print("k = {}".format(hexa(k)))
+print(f"k = {hexa(k)}")
 
 # Create AES-128 block cipher to encrypt a single block.
 cipher = Cipher(algorithms.AES(k), modes.ECB())
@@ -16,9 +16,9 @@ p = p.encode()
 
 # Encrypt plaintext p (to ciphertext c).
 c = aes_encrypt.update(p) + aes_encrypt.finalize()
-print("enc({}) = {}".format(hexa(p), hexa(c)))
+print(f"enc({hexa(p)}) = {hexa(c)}")
 
 # Decrypt ciphertext c to plaintext p.
 aes_decrypt = cipher.decryptor()
 p = aes_decrypt.update(c) + aes_decrypt.finalize()
-print("dec({}) = {}".format(hexa(c), hexa(p)))
+print(f"dec({hexa(c)}) = {hexa(p)}")
