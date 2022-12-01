@@ -10,7 +10,7 @@ Or interact live with a Jupyter notebook (e.g., re-run cells, change parameters)
 
 *It can take a minute to spin up JupyterLab on Binder, so be patient.*
 
-NOTE: The Jupyter notebooks with the SageMath kernel (Listings 10-1 and 10-2) are view-only for now. There is a conda-based SageMath environment for Binder at https://github.com/sagemath/sage-binder-env, but it usually takes a few tries (and a long wait) for me.
+NOTE: The Jupyter notebooks run with the SageMath kernel (Listings 10-1 and 10-2) are view-only for now. There is a conda-based SageMath environment for Binder at https://github.com/sagemath/sage-binder-env, but it usually takes a few tries (and a long wait) for me.
 
 ## References
 1. "Serious Crytography: A Practical Introduction to Modern Encryption". Aumasson, Jean-Philippe. No Starch Press, 2018.
