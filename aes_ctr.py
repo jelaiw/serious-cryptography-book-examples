@@ -1,8 +1,8 @@
-from Crypto.Cipher import AES
-from Crypto.Util import Counter
 from binascii import hexlify as hexa
 from os import urandom
 from struct import unpack
+from Crypto.Cipher import AES
+from Crypto.Util import Counter
 
 k = urandom(16)
 print("k = {}".format(hexa(k)))
