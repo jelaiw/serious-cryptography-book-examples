@@ -1,4 +1,4 @@
-Page 14: The equation that shows:
+**Page 14**: The equation that shows:
 
 ```math
 E(K, R, P) = (DRBG(K\ \ R) \oplus P, R)
