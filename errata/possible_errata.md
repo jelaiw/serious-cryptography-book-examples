@@ -16,7 +16,7 @@ At least for the seventh printing, the equation shows conspicuous whitespace whe
 
 "plainte (P)" should be "plaintext (P)"
 
-**Page 159**: Missing "H" term in equation that shows:
+**Page 159**: Missing "H" term (in seventh printing epub, but not in PDF) in equation that shows:
 
 ```math
 C_{i}\ \otimes = 1 \otimes H = H
@@ -27,5 +27,3 @@ should read:
 ```math
 C_{i} \otimes H = 1 \otimes H = H
 ```
-
-In seventh printing ebug (but not in PDF)
