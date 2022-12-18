@@ -1,7 +1,13 @@
 Page 14: The equation that shows:
 
-E(K, R, P) = (DRBG(K  R) XOR P, R)
+```math
+E(K, R, P) = (DRBG(K\ \ R) \oplus P, R)
+```
 
-should read:
+should probably read:
 
-E(K, R, P) = (DRBG(K || R) XOR P, R)
+```math
+E(K, R, P) = (DRBG(K || R) \oplus P, R)
+```
+
+At least for the seventh printing, the equation shows conspicuous whitespace where either || or , (at least for consistency with the rest of the text) should probably be.
