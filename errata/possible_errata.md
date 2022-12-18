@@ -19,13 +19,13 @@ At least for the seventh printing, the equation shows conspicuous whitespace whe
 **Page 159**: Missing "H" term in equation that shows:
 
 ```math
-C_{i}\ \oplus = 1 \oplus H = H
+C_{i}\ \otimes = 1 \otimes H = H
 ```
 
 should read:
 
 ```math
-C_{i} \oplus H = 1 \oplus H = H
+C_{i} \otimes H = 1 \otimes H = H
 ```
 
 In seventh printing ebug (but not in PDF)
