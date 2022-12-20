@@ -1,5 +1,5 @@
 ## Overview
-A git repo for working examples from Jean-Philippe Aumasson's excellent introductory cryptography book [1].
+A git repo for working examples from Dr. Aumasson's excellent introductory cryptography book [1].
 
 ## View or Run Examples
 Click on any of the Jupyter notebooks (i.e., the `.ipynb` files) to view them.
