@@ -39,3 +39,15 @@ This error occurs in the seventh printing epub, but is correct in the PDF. Shoul
 ```math
 O(2^{n})
 ```
+
+**Page 172**: Missing division operator symbol "/" (both epub and PDF) in expression that reads
+
+```math
+1/log\sqrt{N} = 1/(n/2) = 2n
+```
+
+Should simplify to:
+
+```math
+1/log\sqrt{N} = 1/(n/2) = 2/n
+```
