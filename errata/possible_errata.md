@@ -54,18 +54,18 @@ Should simplify to:
 
 **Page 175**: Fix modular math expression that reads
 
-2 × 3 = 1 (because 6 = 1 mod 5)
+*2 × 3 = 1 (because 6 = 1 mod 5)*
 
 Should read:
 
-2 × 3 = 1 (because 1 = 6 mod 5)
+*2 × 3 = 1 (because 1 = 6 mod 5)*
 
 Needs to be corrected in both epub and PDF.
 
 **Page 175**: Consider clarifying modular math expression that reads
 
-4 × 4 = 16 = 1 mod 5
+*4 × 4 = 16 = 1 mod 5*
 
 Should probably read:
 
-4 × 4 = 16 mod 5 = 1
+*4 × 4 = 16 mod 5 = 1*
