@@ -69,3 +69,11 @@ Needs to be corrected in both epub and PDF.
 Should probably read:
 
 *4 × 4 = 16 mod 5 = 1*
+
+**Page 182**: Missing word "it" in seventh printing epub (correct in PDF) for sentence that reads
+
+*and call the multiplicative group of integers modulo n*
+
+Should read:
+
+*and call it the multiplicative group of integers modulo n*
