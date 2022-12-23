@@ -27,3 +27,7 @@ should read:
 ```math
 C_{i} \otimes H = 1 \otimes H = H
 ```
+
+**Page 167**: The sentence that reads "We know for sure that there’s no way to beat the O(2N) complexity" (in the seventh printing epub, correct in PDF) formats the big-O notation as a uppercase "N" subscript.
+
+Should be lowercase "n" superscript for correctness (and consistency with the PDF printing).
