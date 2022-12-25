@@ -16,8 +16,7 @@ ctr = Counter.new(128, initial_value=nonce)
 aes = AES.new(k, AES.MODE_CTR, counter=ctr)
 
 # No need for an entire block with CTR.
-p = '\x00\x01\x02\x03'
-p = p.encode()
+p = b'\x00\x01\x02\x03'
 
 # Encrypt plaintext.
 c = aes.encrypt(p)
