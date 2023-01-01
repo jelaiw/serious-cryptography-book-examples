@@ -1,16 +1,16 @@
-**Page 14**: The equation that shows:
+**Page 14**: The first equation in the "Achieving Semantically Secure Encryption" section (both PDF and epub, seventh printing):
 
 ```math
 E(K, R, P) = (DRBG(K\ \ R) \oplus P, R)
 ```
 
-should probably read:
+should probably be:
 
 ```math
 E(K, R, P) = (DRBG(K || R) \oplus P, R)
 ```
 
-At least for the seventh printing, the equation shows conspicuous whitespace where either || or , (at least for consistency with the rest of the text) should probably be.
+In other words, the equation shows conspicuous whitespace where we expect either || or , (at least for consistency with rest of section).
 
 **Page 148**: Typo in seventh printing epub (but not in PDF)
 
