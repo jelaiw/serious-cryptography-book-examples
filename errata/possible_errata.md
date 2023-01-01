@@ -1,4 +1,4 @@
-**Page 14**: The first equation in the "Achieving Semantically Secure Encryption" section (both PDF and epub, seventh printing):
+**Page 14**: The first equation in the *Achieving Semantically Secure Encryption* section (both PDF and epub, seventh printing):
 
 ```math
 E(K, R, P) = (DRBG(K\ \ R) \oplus P, R)
