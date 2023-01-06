@@ -15,7 +15,7 @@ NOTE: The Jupyter notebooks run with the SageMath kernel (e.g., Listings 10-1 an
 ## Book Errata
 See [errata/possible_errata.md](errata/possible_errata.md) for possible new errata from the seventh printing. Most are typo/formatting errors in the EPUB, but some appear to be in both the PDF and EPUB.
 
-These have been have been cross-checked against the [latest online errata](https://nostarch.com/download/SC_errata_updatedto_print8.pdf) and submitted to the publisher (pending confirmation), but interested parties can check them out here in the meantime.
+These have been have been cross-checked against the [latest online errata](https://nostarch.com/download/SC_errata_updatedto_print8.pdf) (or see [cached copy](errata/SeriousCryptography_Errata_Print8.pdf) as file name has changed and possibly the contents too) and submitted to the publisher (pending confirmation), but interested parties can check them out here in the meantime.
 
 ## References
 1. "Serious Crytography: A Practical Introduction to Modern Encryption". Aumasson, Jean-Philippe. No Starch Press, 2018.
