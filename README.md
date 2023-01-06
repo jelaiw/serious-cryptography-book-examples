@@ -12,6 +12,11 @@ Or interact live with a Jupyter notebook (e.g., re-run cells, change parameters)
 
 NOTE: The Jupyter notebooks run with the SageMath kernel (e.g., Listings 10-1 and 10-2) are view-only for now. There is a conda-based SageMath environment for Binder at https://github.com/sagemath/sage-binder-env, but it usually takes a few tries (and a long wait) for me.
 
+## Book Errata
+See `errata/possible_errata.md` for possible new errata from the seventh printing of both PDF and EPUB. Most are typo/formatting errors in the EPUB, but some appear to be in both.
+
+These have been submitted to the publisher (pending confirmation), but interested parties can check them out here in the meantime.
+
 ## References
 1. "Serious Crytography: A Practical Introduction to Modern Encryption". Aumasson, Jean-Philippe. No Starch Press, 2018.
 2. "Binder 2.0 - Reproducible, Interactive, Sharable Environments for Science at Scale." Proceedings of the 17th Python in Science Conference, [doi://10.25080/Majora-4af1f417-011](https://doi.org/10.25080/Majora-4af1f417-011), 2018.
