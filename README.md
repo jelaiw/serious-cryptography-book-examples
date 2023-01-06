@@ -13,7 +13,7 @@ Or interact live with a Jupyter notebook (e.g., re-run cells, change parameters)
 NOTE: The Jupyter notebooks run with the SageMath kernel (e.g., Listings 10-1 and 10-2) are view-only for now. There is a conda-based SageMath environment for Binder at https://github.com/sagemath/sage-binder-env, but it usually takes a few tries (and a long wait) for me.
 
 ## Book Errata
-See `errata/possible_errata.md` for possible new errata from the seventh printing of both PDF and EPUB. Most are typo/formatting errors in the EPUB, but some appear to be in both.
+See [errata/possible_errata.md](errata/possible_errata.md) for possible new errata from the seventh printing. Most are typo/formatting errors in the EPUB, but some appear to be in both the PDF and EPUB.
 
 These have been submitted to the publisher (pending confirmation), but interested parties can check them out here in the meantime.
 
