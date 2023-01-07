@@ -13,7 +13,7 @@ Or interact live with a Jupyter notebook (e.g., re-run cells, change parameters)
 NOTE: The Jupyter notebooks run with the SageMath kernel (e.g., Listings 10-1 and 10-2) are view-only for now. There is a conda-based SageMath environment for Binder at https://github.com/sagemath/sage-binder-env, but it usually takes a few tries (and a long wait) for me.
 
 ## Book Errata
-See [errata/possible_errata.md](errata/possible_errata.md) for possible new errata from the seventh printing. Most are typo/formatting errors in the EPUB, but some appear to be in both the PDF and EPUB.
+See [errata/possible_errata.md](errata/possible_errata.md) for possible new errata. Most are typo/formatting errors in the EPUB, but some appear to be in both the PDF and EPUB (seventh printing).
 
 These have been have been cross-checked against the [latest online errata](https://nostarch.com/download/SC_errata_updatedto_print8.pdf) (or see [cached copy](errata/SeriousCryptography_Errata_Print8.pdf) as file name has changed and possibly the contents too) and submitted to the publisher (pending confirmation), but interested parties can check them out here in the meantime.
 
