@@ -7,7 +7,7 @@ k = urandom(16)
 print(f"k = {hexa(k)}")
 
 # Create AES-128 block cipher to encrypt a single block.
-cipher = Cipher(algorithms.AES(k), modes.ECB())
+cipher = Cipher(algorithms.AES128(k), modes.ECB())
 aes_encrypt = cipher.encryptor()
 
 # Set plaintext block p to all-zero bytes.
