@@ -7,8 +7,8 @@ BLOCKLEN = 16
 # Note, data are passed in as encoded bytes.
 # See https://docs.python.org/3/library/binascii.html#binascii.hexlify.
 def blocks(data):
-    blocks = [hexa(data[i:i+BLOCKLEN]).decode() for i in range(0, len(data), BLOCKLEN)]
-    return " ".join(blocks)
+    split = [hexa(data[i:i+BLOCKLEN]).decode() for i in range(0, len(data), BLOCKLEN)]
+    return " ".join(split)
 
 k = urandom(16)
 print(f"k = {hexa(k)}")
