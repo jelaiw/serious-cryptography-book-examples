@@ -1,6 +1,6 @@
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from binascii import hexlify as hexa
 from os import urandom
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 BLOCKLEN = 16
 def blocks(data):
