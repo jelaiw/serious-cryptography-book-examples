@@ -59,3 +59,13 @@ Should simplify to:
 Should read:
 
 *and call it the multiplicative group of integers modulo n*
+
+**Page 231**: Broken anchor in link to Bernstein presentation
+
+http://cr.yp.to/talks.html#2016.03.09/
+
+Should be:
+
+http://cr.yp.to/talks.html#2016.03.09
+
+In other words, remove the trailing forward slash, which allows the anchor element to work as intended.
