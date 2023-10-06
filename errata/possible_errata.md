@@ -52,28 +52,6 @@ Should simplify to:
 1/log\sqrt{N} = 1/(n/2) = 2/n
 ```
 
-**Page 175**: Fix modular math expression that reads
-
-*2 × 3 = 1 (because 6 = 1 mod 5)*
-
-Should probably read:
-
-*2 × 3 = 1 (because 1 = 6 mod 5)*
-
-Needs to be corrected in both epub and PDF.
-
-Unless the author intends to convey $6 \equiv 1\ (mod\ 5)$, but congruence for modular arithmetic is not really introduced (just implied).
-
-**Page 175**: Consider clarifying modular math expression that reads
-
-*4 × 4 = 16 = 1 mod 5*
-
-Should probably read:
-
-*4 × 4 = 16 mod 5 = 1*
-
-Again, assuming the author is going for the modulo operator (and not congruence). Very minor, but may be worth clarifying for some readers.
-
 **Page 182**: Missing word "it" in seventh printing epub (correct in PDF) for sentence that reads
 
 *and call the multiplicative group of integers modulo n*
