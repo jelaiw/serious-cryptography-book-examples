@@ -69,3 +69,11 @@ Should be:
 http://cr.yp.to/talks.html#2016.03.09
 
 In other words, remove the trailing forward slash, which allows the anchor element to work as intended.
+
+**Page 241**: Swap words "key" and "TLS" (in seventh printing epub and PDF) for sentence that reads
+
+*key TLS agreement protocol*
+
+Should be:
+
+*TLS key agreement protocol*
