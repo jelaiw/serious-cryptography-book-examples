@@ -3,7 +3,7 @@ fn main() {
     let key: u8 = 0b1011_0100;
 
     let ciphertext = plaintext ^ key;
-    println!("C = P ⨁ K = {:b} ⨁ {:b} = {:b}", plaintext, key, ciphertext);
+    println!("C = P ⨁ K = {:08b} ⨁ {:b} = {:b}", plaintext, key, ciphertext);
 
     assert_eq!(ciphertext ^ key, plaintext);
 }
