@@ -1,14 +1,13 @@
-from binascii import hexlify as hexa
-from os import urandom
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from os import urandom
 
 BLOCKLEN = 16
 def blocks(data):
-    split = [hexa(data[i:i+BLOCKLEN]).decode() for i in range(0, len(data), BLOCKLEN)]
+    split = [data[i:i+BLOCKLEN].hex() for i in range(0, len(data), BLOCKLEN)]
     return " ".join(split)
 
 k = urandom(16)
-print(f"k = {hexa(k)}")
+print(f"k = {k.hex()}")
 
 # Create AES-128 cipher for encryption.
 cipher = Cipher(algorithms.AES(k), modes.ECB())
